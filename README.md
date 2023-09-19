@@ -9,3 +9,7 @@ I started off theorizing that I'd have a mix of long and short flicker durations
 To do this, I made a probability distribution function (PDF) and plotted it.  The above ideas are annotated on the PDF below:
 
 ![](flicker_pdf.jpg)
+
+
+# ws-2812
+See ws2812-demo/README.md
