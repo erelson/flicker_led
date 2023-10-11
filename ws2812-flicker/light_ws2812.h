@@ -18,6 +18,8 @@
 
 void ws2812_sendarray(uint8_t *ledarray, uint16_t length);
 void ws2812_sendarray_mask(uint8_t *ledarray, uint16_t length, uint8_t mask);
+void ws2812_sendarray_single(uint16_t N, uint8_t R, uint8_t G, uint8_t B);
+void ws2812_sendarray_mask_single(uint16_t N, uint8_t R, uint8_t G, uint8_t B, uint8_t maskhi);
 
 ///////////////////////////////////////////////////////////////////////
 // User defined area: Define I/O pin
